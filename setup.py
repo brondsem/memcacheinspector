@@ -10,7 +10,7 @@ except ImportError:
 
 setup(
     name='memcacheinspector3',
-    version='0.2.2',
+    version='0.2.3',
     packages=find_packages(exclude=['tests']),
 	scripts = [
 		'bin/mcinspect',
