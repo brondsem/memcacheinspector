@@ -2,4 +2,4 @@
 *.swp
 build
 dist
-memcacheinspector.egg-info
+*.egg-info

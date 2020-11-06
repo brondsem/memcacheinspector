@@ -8,6 +8,8 @@ Memcached Inspection Module and Command-Line Utility
 Introduction
 ============
 
+This is a fork of https://github.com/jayclassless/memcacheinspector to support Python 3.  The package on pypi is "memcacheinspector3" but modules you import are still "memcacheinspector"
+
 This package includes two things:
 
 - A `Python`_ module for extracting keys from `Memcached`_ servers.
@@ -21,11 +23,7 @@ Installation
 
 Using `pip`_ (recommended)::
 
-    $ pip install memcacheinspector
-
-Or, using easy_install::
-
-    $ easy_install memcacheinspector
+    $ pip install memcacheinspector3
 
 Or, you can download the source and install it by hand::
 
@@ -113,9 +111,9 @@ memcacheinspector is released under the `MIT License`_. See the LICENSE file for
 Reference
 =========
 
-_`Home`: https://github.com/jayclassless/memcacheinspector
+_`Home`: https://github.com/brondsem/memcacheinspector/tree/fork
 
-_`Package Index`: http://pypi.python.org/pypi/memcacheinspector/
+_`Package Index`: http://pypi.python.org/pypi/memcacheinspector3/
 
 _`Python`: http://www.python.org/
 
